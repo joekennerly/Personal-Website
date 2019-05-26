@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color:white;
+  font-family: sans-serif;
+}
+
+a {
+  color: lightskyblue;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.flex {
+  display:flex;
+}
+
+.column {
+  flex-flow: column wrap;
+}
+.row {
+  flex-flow: row wrap;
+}
+
+header, section {
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 8px;
+}
+
+ {
+  flex-basis: 60%;
+}
+
