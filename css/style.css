@@ -1,13 +1,11 @@
 body {
-  display: flex;
-  flex-direction: column;
   background: black;
   color:white;
   font-family: sans-serif;
 }
 
 a {
-  color: lightskyblue;
+  color: lightgreen;
 }
 
 h1 {
@@ -34,7 +32,7 @@ nav li {
   margin-right: 8px;
 }
 
- {
+body ~ header {
   flex-basis: 60%;
 }
 
